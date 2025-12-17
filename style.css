@@ -11,7 +11,7 @@
   --secondary-color: #ffffff;
   /* Light Text */
   /* ===== FONT VARIABLES ===== */
-  --narmal:'Times New Roman', Times, serif;
+  --narmal: 'Times New Roman', Times, serif;
   --header: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -20,7 +20,7 @@
 
 .mob-name {
   font-family: var(--header);
-  font-size: 27px!important;
+  font-size: 27px !important;
   color: white;
   background-color: #00000060;
   padding-left: 5px;
@@ -354,7 +354,7 @@
   display: block;
   border-radius: 10px;
   object-fit: cover;
-  
+
 }
 
 .col-content h2 {
@@ -367,8 +367,8 @@
   margin-bottom: 10px;
   line-height: 1.6;
   text-align: center;
-  font-family:var(--narmal);
-  font-weight: 700!important;
+  font-family: var(--narmal);
+  font-weight: 700 !important;
 }
 
 .col-content ul {
@@ -491,16 +491,148 @@
 
 .border-near {
   border: 1px solid rgb(192, 188, 188);
-  padding:15px;
+  padding: 15px;
   border-radius: 20px;
 }
 
 p {
   /* font-family: var(--header); */
-  font-size: 18px!important;
+  font-size: 18px !important;
   font-weight: 700;
 }
 
 h2 {
   font-family: var(--header);
+}
+
+.srv {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .service {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+
+.srv-cs{
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+ 
+  height: 200px;
+}
+
+
+.service-card2 {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./images/vehical/ground.jpg"); /* change image path */
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 10px;
+}
+
+/* Optional hover */
+.service-card:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease;
+}
+
+
+.service-card1 {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./images/vehical/carrom.jpg"); /* change image path */
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+  border-radius: 10px;
+}
+
+/* Optional hover */
+.service-card:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease;
+}
+
+
+.service-card3 {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./images/vehical/tent.jpg"); /* change image path */
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+  border-radius: 10px;
+}
+
+/* Optional hover */
+.service-card:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease;
+}
+
+
+.service-card4 {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./images/vehical/event.jpg"); /* change image path */
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+  border-radius: 10px;
+}
+
+/* Optional hover */
+.service-card:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease;
 }
