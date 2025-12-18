@@ -527,112 +527,67 @@ h2 {
 }
 
 
-.srv-cs{
-  width: 200px;
+.srv-cs {}
+
+/* Optional hover */
+.service-card:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease;
+}
+
+
+.service-card1 {}
+
+/* Optional hover */
+.service-card1:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease;
+}
+
+
+
+
+.gems {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
   flex-direction: column;
-  text-align: center;
- 
-  height: 200px;
+  /* border: 2px solid rgb(119, 118, 118); */
+  padding: 10px;
+  border-end-start-radius: 30px;
+  border-top-right-radius: 30px;
+  width: 330px;
+  background-color: #31a137f6;
+  color: white;
 }
 
-
-.service-card2 {
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("./images/vehical/ground.jpg"); /* change image path */
-
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  height: 200px;
+.gems2 {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  border-radius: 10px;
+  justify-content: start;
+  flex-direction: column;
+  /* border: 2px solid rgb(119, 118, 118); */
+  padding: 10px;
+  border-end-start-radius: 30px;
+  border-top-right-radius: 30px;
+  width: 330px;
+  padding: 20px;
+  background-color: #31a137f6;
+  color: white;
 }
 
-/* Optional hover */
-.service-card:hover {
-  transform: scale(1.03);
-  transition: 0.3s ease;
-}
-
-
-.service-card1 {
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("./images/vehical/carrom.jpg"); /* change image path */
-
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  height: 200px;
+.srv-lap {
   display: flex;
-  align-items: center;
-  justify-content: center;
-
-  color: #fff;
-  border-radius: 10px;
+  gap: 10%;
+  border: 2px solid rgb(128, 128, 128);
+  padding: 10px;
+  border-end-start-radius: 30px;
+  border-top-right-radius: 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.808);
 }
 
-/* Optional hover */
-.service-card:hover {
-  transform: scale(1.03);
-  transition: 0.3s ease;
-}
-
-
-.service-card3 {
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("./images/vehical/tent.jpg"); /* change image path */
-
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  color: #fff;
-  border-radius: 10px;
-}
-
-/* Optional hover */
-.service-card:hover {
-  transform: scale(1.03);
-  transition: 0.3s ease;
-}
-
-
-.service-card4 {
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("./images/vehical/event.jpg"); /* change image path */
-
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  color: #fff;
-  border-radius: 10px;
-}
-
-/* Optional hover */
-.service-card:hover {
-  transform: scale(1.03);
-  transition: 0.3s ease;
+@media (max-width: 768px) {
+  .srv-lap {
+    flex-direction: column;
+    gap: 20px;
+    /* you can adjust */
+  }
 }
